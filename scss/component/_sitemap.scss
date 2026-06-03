@@ -1,0 +1,64 @@
+.sitemap-listing {
+    clear: both;
+
+    div.tree-home {
+        padding-left: 0.3rem;
+
+        a {
+            color: var(--main);
+            font-weight: 400;
+
+            &:hover {
+                color: var(--primary);
+                padding-left: 0.5rem;
+                transition: all 0.35s ease-out;
+            }
+        }
+    }
+}
+
+.category-tree ul {
+    padding: 0.2rem 0rem;
+    margin: 0.7rem 0rem 0rem;
+    list-style-type: none;
+
+    &.tree-listing {
+        padding-left: 0.7rem;
+
+        li {
+            margin-left: 1.5rem;
+            padding: 0.5rem 0 0.5rem 1.5rem;
+            border-left: 1px solid var(--line);
+            background: url(../images/sitemap/sitemap-horizontalline.png) left 0.8rem no-repeat;
+
+            &:last-child {
+                border: none;
+                background: url(../images/sitemap/sitemap-lastline.png) 0rem 0rem no-repeat;
+            }
+
+            strong {
+                font-weight: 500;
+            }
+
+            a {
+                font-size: 15px;
+                color: var(--main);
+
+                &:hover {
+                    color: var(--primary);
+                    padding-left: 0.5rem;
+                    transition: all 0.35s ease-out;
+                }
+            }
+        }
+
+        >li {
+            margin: 0rem 0rem 0rem 0.2rem;
+
+            &:last-child {
+                border: none;
+                background: url(../images/sitemap/sitemap-lastline.png) 0rem 0rem no-repeat;
+            }
+        }
+    }
+}
