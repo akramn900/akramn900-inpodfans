@@ -1,0 +1,1 @@
+Converted from PHP to static HTML. PHP includes were expanded into each HTML file. The contact form now opens the visitor email app using mailto. For real form delivery on GitHub Pages, use Formspree, EmailJS, or Google Apps Script.
